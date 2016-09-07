@@ -107,6 +107,18 @@ a[href*=".pdf"] {
     background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2216.749%22%20height%3D%2216.06%22%20viewBox%3D%22-0.375%20-0.375%2016.749%2016.06%22%20enable-background%3D%22new%20-0.375%20-0.375%2016.749%2016.06%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23EA4C3A%22%20stroke-width%3D%22.75%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%2210%22%20d%3D%22M8.067.207c.335.145.26.366.15%201.4-.115%201.074-.492%203.027-1.22%204.946-.73%201.92-1.814%203.805-2.758%205.202-.943%201.396-1.75%202.304-2.366%202.827-.618.522-1.044.66-1.323.71-.276.048-.402%200-.477-.14-.075-.14-.1-.374-.037-.65.063-.282.213-.607.64-1.024.43-.42%201.134-.93%202.116-1.408.98-.477%202.24-.92%203.272-1.22%201.033-.304%201.838-.466%202.54-.593.708-.128%201.312-.222%201.9-.268.595-.048%201.175-.048%201.74%200%20.565.045%201.12.14%201.6.254s.88.256%201.23.478c.355.22.655.523.806.86.153.338.153.71.026.978-.126.268-.378.433-.667.523-.29.092-.616.114-1.007%200-.39-.117-.846-.372-1.323-.71-.478-.337-.98-.755-1.635-1.407S9.813%209.428%209.133%208.57C8.456%207.706%207.9%206.87%207.52%206.16c-.374-.71-.576-1.29-.74-1.874-.164-.58-.29-1.163-.34-1.686-.05-.525-.025-.99.025-1.36.05-.373.127-.65.252-.838s.303-.28.428-.325c.125-.05.203-.05.277-.06.075-.01.15-.035.266%200%20.11.032.258.12.38.19z%22/%3E%3C/svg%3E);
 }
 
+a[href^=tel] { color: inherit !important; text-decoration: none; }
+a[href^=mailto] { color: inherit !important; text-decoration: none; }
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
 a[href$=".doc"],
 a[href$=".docx"],
 a[href$=".xls"],
@@ -351,7 +363,7 @@ dfn[title] {
 
 mark {
     background: #FFF49B;
-    color: #000;
+    color: #000 !important;
 }
 
 hr {
@@ -1427,7 +1439,7 @@ header .logo a {
 }
 
 #menu-nav-wrap .nav-list li a {
-    color: rgba(255, 255, 255, 0.25);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #menu-nav-wrap .nav-list li a:hover,
@@ -1530,9 +1542,9 @@ header .logo a {
     /*border-radius: 20%;*/
     /*color: white;*/
     color: #0e4709;
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin: 0 .9rem;
-    background-color: orange !important;
+    background-color: #c7eab5 !important;
 }
 
 #intro .buttons .button:hover,

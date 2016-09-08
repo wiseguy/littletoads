@@ -1387,7 +1387,7 @@ header .logo a {
     font-family: "maven-pro-regular", sans-serif;
     font-size: 1.5rem;
     line-height: 1.6;
-    padding: 3.6rem 3rem;
+    padding: 1rem 3rem;
     height: 100%;
     width: 240px;
     position: fixed;
@@ -1439,7 +1439,12 @@ header .logo a {
 }
 
 #menu-nav-wrap .nav-list li a {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#menu-nav-wrap .nav-list li.current a {
+    color: rgba(255, 255, 0, 1.0);
+    font-weight: bold;
 }
 
 #menu-nav-wrap .nav-list li a:hover,
@@ -2556,10 +2561,16 @@ header .logo a {
  *
  * ------------------------------------------------------------------- */
 
-footer {
+#main-footer {
     text-align: center;
     /*padding-bottom: 3rem;*/
     position: relative;
+}
+
+.footer-bottom{
+    background-color: #0e4709;
+    height:200px;
+    color:#fff;
 }
 
 .footer-info-wrap {
@@ -2567,8 +2578,8 @@ footer {
     color: #FFF;
 }
 
-footer a,
-footer a:visited {
+#main-footer a,
+#main-footer a:visited {
     color: #FFFFFF;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -2577,9 +2588,9 @@ footer a:visited {
     transition: all 0.3s ease-in-out;
 }
 
-footer a:hover,
-footer a:focus,
-footer a:active {
+#main-footer a:hover,
+#main-footer a:focus,
+#main-footer a:active {
     color: #f9da4f;
     outline: 0;
 }
@@ -2602,7 +2613,7 @@ footer a:active {
 .footer-social-list li a {
     font-size: 4.2rem;
     line-height: 4.2rem;
-    color: #0e4709;
+    color: #0e4709 !important;
     display: block;
     padding: 4.2rem 5rem 4.8rem;
     border-right: 1px solid rgba(255, 255, 255, 0.02);
@@ -2611,7 +2622,7 @@ footer a:active {
 .footer-social-list li a:hover,
 .footer-social-list li a:focus,
 .footer-social-list li a:active {
-    color: #0e4709;
+    color: #0e4709 !important;
 }
 
 .footer-social-list li:first-child a {

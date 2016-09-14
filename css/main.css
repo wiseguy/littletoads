@@ -1500,7 +1500,7 @@ header .logo a {
 
 #intro {
     position: relative;
-    background-image: url(../images/littletoads/bg2.jpg);
+    background-image: url(../images/littletoads/bg.jpg);
     /*background-attachment: fixed;*/
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -1560,6 +1560,7 @@ header .logo a {
 }
 
 #intro img {
+    margin-bottom: 3rem;
     vertical-align: bottom;
     max-width: 1100px;
     width: 100%;
@@ -1667,9 +1668,14 @@ header .logo a {
  * 12. about us - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
+#videos{
+    padding: 5rem 0 0rem;
+    background-color: #c7eab5;
+    overflow: hidden;
+}
 
 #ourprogram {
-    padding: 15rem 0 12rem;
+    padding: 5rem 0 5rem;
     background-color: #f5f4f0;
     overflow: hidden;
 }
@@ -1681,7 +1687,7 @@ header .logo a {
  * ------------------------------------------------------------------- */
 
 #curriculum {
-    padding: 15rem 0 12rem;
+    padding: 5rem 0 5rem;
     background-color: #c7eab5;
     overflow: hidden;
 }
@@ -2248,7 +2254,7 @@ header .logo a {
  * ------------------------------------------------------------------- */
 
 #testimonials {
-    padding: 12rem 0 10.2rem;
+    padding: 12rem 0 5rem;
     background: #c7eab5;
     text-align: center;
 }
@@ -2372,7 +2378,7 @@ header .logo a {
 	-moz-background-size: cover;
 	background-size: cover;*/
     text-align: center;
-    padding: 13.2rem 0 10.2rem;
+    padding: 5rem 0 10.2rem;
 }
 
 #documents li {
